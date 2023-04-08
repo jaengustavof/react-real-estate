@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.appContainer {
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
 // colors
 
 $black: #000000;
+$black-light: #00000060;
 $white: #FFFFFF;
 $orange: #FFAC12;

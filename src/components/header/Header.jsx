@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import NavBar from '../navbar/NavBar';
 import './header.scss';
 import { headerEffects } from './header';
 
 const Header = () => {
-    headerEffects();
+    
+    useEffect(() => {
+      return () => {
+        headerEffects();
+      }
+    }, []);
+    
     return (
         <header>
             <div className='appContainer'>
