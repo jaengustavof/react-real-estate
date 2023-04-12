@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <header>
             <div className='appContainer'>
-                <NavBar></NavBar>
+
                 <div id='header-container'>
                     <h1 className='header-title no-opacity' id='headerTitle'>Beautiful homes made for you</h1>
                     <p className='header-text no-opacity' id='headerText'>

@@ -4,12 +4,14 @@ import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './pages/home';
+import NavBar from './components/navbar/NavBar';
 
 
 const Container = () => {
   return (
+    
     <BrowserRouter >
-
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
 

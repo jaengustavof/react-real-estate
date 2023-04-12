@@ -7,6 +7,24 @@
     margin: 0;
 }
 
+// colors
+
+$black: #000000;
+$black-light: #00000060;
+$white: #FFFFFF;
+$orange: #FFAC12;
+
+h1 {
+    
+}
+
+h2 {
+    font-size: 2.8rem;
+    line-height: 4.2rem;
+    font-weight: bold;
+    color: $black;
+}
+
 .appContainer {
     width: calc(100% - 40px);
     max-width: 1200px;
@@ -14,9 +32,4 @@
     padding: 0 20px;
 }
 
-// colors
 
-$black: #000000;
-$black-light: #00000060;
-$white: #FFFFFF;
-$orange: #FFAC12;
