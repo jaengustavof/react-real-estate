@@ -1,6 +1,7 @@
 import React from 'react';
 import './homelisting.scss';
 import HomeListingFilters from '../homeListingFilters/HomeListingFilters';
+import HomeListingResults from '../homeListingResults/HomeListingResults';
 
 
 
@@ -15,6 +16,7 @@ const HomeListing = () => {
                         <h2 className='home-listing-header_heading'>Find your next place to live</h2>
                     </div>
                     <HomeListingFilters></HomeListingFilters>
+                    <HomeListingResults></HomeListingResults>
                 </div>
             </div>
         </div>
