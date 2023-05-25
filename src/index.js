@@ -7,6 +7,7 @@ import Home from './pages/home';
 import NavBar from './components/navbar/NavBar';
 
 
+
 const Container = () => {
   return (
     

@@ -9,6 +9,6 @@ export const headerEffects = () => {
 
     setTimeout(() => {
         headerText.classList.remove('no-opacity');
-    }, 700);
+    }, 900);
 
 }

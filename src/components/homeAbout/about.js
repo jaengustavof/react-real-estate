@@ -9,7 +9,7 @@ export const AboutEffects = () => {
             preTextLine.classList.add('active');
             setTimeout(() => {
                 aboutImage.classList.add('shadow');
-            }, 200);
+            }, 800);
         }
 
     });

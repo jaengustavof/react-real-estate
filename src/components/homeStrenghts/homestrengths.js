@@ -1,16 +1,15 @@
 
-export const AboutEffects = () => {
-    const aboutPosition = document.getElementById('home-strengths').offsetTop / 2;
-    const preTextLine = document.getElementById('pre');
-    const aboutImage = document.getElementById('aboutImage');
+export const StrengthEffects = () => {
+    const strenghtsPosition = document.getElementById('home-strengths').offsetTop;
+    const preTextLine = document.getElementById('strength-pre');
+    const strenghtsImage = document.getElementById('strenghtsImage');
 
     document.addEventListener('scroll', (e)=>{
-        if(window.scrollY >= aboutPosition){
+        if(window.scrollY >= strenghtsPosition){
             preTextLine.classList.add('active');
             setTimeout(() => {
-                aboutImage.classList.add('shadow');
-            }, 200);
+                strenghtsImage.classList.add('shadow');
+            }, 500);
         }
-
     });
 }

@@ -13,11 +13,16 @@ $black: #000000;
 $black-light: #00000060;
 $lighter-grey: #E4E4E4;
 $light-grey: #F5F5F5;
+$ligtest-grey: #979797;
 $white: #FFFFFF;
 $orange: #FFAC12;
+$dark-brown: #271A00;
 
 h1 {
-    
+    font-size: 3.2rem;
+    line-height: 5.2rem;
+    font-weight: bold;
+    color: $black;
 }
 
 h2 {
@@ -25,6 +30,13 @@ h2 {
     line-height: 4.2rem;
     font-weight: bold;
     color: $black;
+}
+
+h3 {
+    font-size: 2.2rem;
+    line-height: 3.6rem;
+    font-weight: bold;
+
 }
 
 .appContainer {

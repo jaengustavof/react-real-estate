@@ -73,7 +73,7 @@ const HomeListingFilters = () => {
             labelId="propertyType"
             id="type"
             value={type}
-            label="type"
+            label="Property Type"
             onChange={handleType}
           >
             <MenuItem value="">
